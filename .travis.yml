@@ -11,7 +11,7 @@ script:
 deploy:
   provider: surge
   skip_cleanup: true
-  domain: react-test.surge.sh
+  domain: react-test-tdd.surge.sh
   project: ./build/
 
 on:
