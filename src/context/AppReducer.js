@@ -1,4 +1,3 @@
-const { act } = require("react-dom/test-utils");
 
 let AppReducer = (state, action) => {
     switch(action.type) {
