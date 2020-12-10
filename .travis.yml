@@ -12,7 +12,7 @@ script:
   provider: surge
   skip_cleanup: true
   domain: react-test.surge.sh
-  project: "/build"
+  project: ./build/
 
   on:
   branch: master
