@@ -15,5 +15,5 @@ script:
   project: ./build/
 
   on:
-  branch: master
+  branch: main
 
