@@ -8,12 +8,12 @@ script:
   - npm test
   - npm run build
 
-  deploy:
+deploy:
   provider: surge
   skip_cleanup: true
   domain: react-test.surge.sh
   project: ./build/
 
-  on:
+on:
   branch: main
 

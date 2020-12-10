@@ -14,7 +14,7 @@ function App() {
         {/* <Todo /> */}
         Todo
       </div>
-<PDF />
+{/* <PDF /> */}
 
     </Provder>
   );
