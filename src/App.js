@@ -7,7 +7,10 @@ function App() {
 
   return (
       <div className="App">
-        Todo
+        <h1>
+          Toad App 
+          Kamal uddin
+        </h1>
       </div>
   );
 }
