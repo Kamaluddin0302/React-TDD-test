@@ -1,22 +1,22 @@
-import React, {createContext , useReducer} from 'react';
+// import React, {createContext , useReducer} from 'react';
 
-import AppReducer from './AppReducer'
+// import AppReducer from './AppReducer'
 
-let initialState = {
-  users : [{"id" : "1", name :"Kamal uddin"}]
-}
+// let initialState = {
+//   users : [{"id" : "1", name :"Kamal uddin"}]
+// }
 
-const ValueContext = createContext(initialState, ()=> {})
+// const ValueContext = createContext(initialState, ()=> {})
 
-let Provder = (props)=> {
-  let [state, dipatch] = useReducer(AppReducer,initialState)
-  return(
-  <ValueContext.Provider value = {state}> 
-    <div>
-      {props.children}
-    </div>
-  </ValueContext.Provider>
-  )
-}
+// let Provder = (props)=> {
+//   let [state, dipatch] = useReducer(AppReducer,initialState)
+//   return(
+//   <ValueContext.Provider value = {state}> 
+//     <div>
+//       {props.children}
+//     </div>
+//   </ValueContext.Provider>
+//   )
+// }
 
-export {Provder, ValueContext} 
+// export {Provder, ValueContext} 

@@ -1,13 +1,13 @@
-import React from 'react';
+// import React from 'react';
 
 
-const Adduser = (props) => {
+// const Adduser = (props) => {
 
-    return ( 
-        <div>
-            <input type= "text" placeholder = "Enter User Name" onChange = {(e) => props.onClick(e.target.value)}/> 
-        </div>
-     );
-}
+//     return ( 
+//         <div>
+//             <input type= "text" placeholder = "Enter User Name" onChange = {(e) => props.onClick(e.target.value)}/> 
+//         </div>
+//      );
+// }
 
-export default Adduser;
+// export default Adduser;
